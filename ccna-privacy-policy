@@ -1,0 +1,211 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCNA Zero to Hero - Privacy Policy</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1{
+    color:#ff6b00;
+    margin-bottom:10px;
+}
+
+.updated{
+    color:#666;
+    margin-bottom:25px;
+}
+
+h2{
+    margin-top:25px;
+    margin-bottom:10px;
+    color:#222;
+}
+
+ul{
+    padding-left:20px;
+}
+
+.footer{
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid #ddd;
+    color:#666;
+}
+
+.top-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#ff6b00;
+    color:white;
+    border:none;
+    padding:12px 16px;
+    border-radius:50px;
+    cursor:pointer;
+    display:none;
+}
+
+.top-btn:hover{
+    opacity:.9;
+}
+
+@media(max-width:768px){
+    .container{
+        margin:15px;
+        padding:25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Privacy Policy</h1>
+<p class="updated"><strong>Last Updated:</strong> June 2026</p>
+
+<p>
+CCNA Zero to Hero ("App", "we", "our", or "us") is committed to protecting your privacy.
+This Privacy Policy explains how information may be collected, used, and protected when you use our application.
+</p>
+
+<h2>Information We May Collect</h2>
+<ul>
+<li>Learning progress and study statistics</li>
+<li>Quiz scores, XP, badges, ranks, and streaks</li>
+<li>App preferences and settings</li>
+<li>Device and diagnostic information</li>
+<li>Crash reports and performance data</li>
+<li>Notification preferences</li>
+<li>Anonymous usage and analytics data</li>
+</ul>
+
+<h2>Third-Party Services</h2>
+<p>The App may use third-party services including:</p>
+
+<ul>
+<li>Google Play Services</li>
+<li>Google AdMob</li>
+<li>Firebase Analytics</li>
+<li>Firebase Crashlytics</li>
+<li>Firebase Cloud Messaging</li>
+<li>Supabase</li>
+<li>Other analytics and infrastructure providers</li>
+</ul>
+
+<h2>How Information Is Used</h2>
+<ul>
+<li>Provide and improve app functionality</li>
+<li>Save learning progress and preferences</li>
+<li>Analyze app performance and usage trends</li>
+<li>Deliver reminders and notifications</li>
+<li>Diagnose technical issues</li>
+<li>Improve user experience</li>
+<li>Support cloud synchronization features</li>
+</ul>
+
+<h2>Advertising</h2>
+<p>
+The App may display advertisements through Google AdMob or other advertising partners.
+Advertising providers may collect and process device identifiers and usage information
+to provide and measure advertisements.
+</p>
+
+<h2>Data Storage</h2>
+<p>
+Data may be stored locally on your device and/or securely processed through cloud services
+used by the App.
+</p>
+
+<h2>Data Sharing</h2>
+<p>
+We do not sell personal information. Information may be shared only with trusted service
+providers required to operate, improve, secure, and support the App.
+</p>
+
+<h2>Data Security</h2>
+<p>
+We implement reasonable technical and organizational measures to help protect information
+from unauthorized access, loss, misuse, or disclosure.
+</p>
+
+<h2>Children's Privacy</h2>
+<p>
+The App is intended for educational purposes. We do not knowingly collect personal
+information from children under the age required by applicable law.
+</p>
+
+<h2>Your Rights</h2>
+<p>
+Depending on your location, you may have rights regarding access, correction, deletion,
+or restriction of your information.
+</p>
+
+<h2>Changes to This Policy</h2>
+<p>
+We may update this Privacy Policy periodically. Updated versions will be published through
+the App, website, or store listing.
+</p>
+
+<h2>Contact Us</h2>
+<p>
+Email: support@yourdomain.com
+</p>
+
+<div class="footer">
+<p>
+By using CCNA Zero to Hero, you agree to this Privacy Policy.
+</p>
+</div>
+
+</div>
+
+<button class="top-btn" id="topBtn">↑ Top</button>
+
+<script>
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 300){
+        topBtn.style.display = "block";
+    } else {
+        topBtn.style.display = "none";
+    }
+});
+
+topBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+});
+</script>
+
+</body>
+</html>
+```
