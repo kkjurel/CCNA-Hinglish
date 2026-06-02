@@ -1,0 +1,224 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCNA Zero to Hero - Terms & Conditions</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1{
+    color:#ff6b00;
+    margin-bottom:10px;
+}
+
+.updated{
+    color:#666;
+    margin-bottom:25px;
+}
+
+h2{
+    margin-top:25px;
+    margin-bottom:10px;
+    color:#222;
+}
+
+ul{
+    padding-left:20px;
+}
+
+.footer{
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid #ddd;
+    color:#666;
+}
+
+.top-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#ff6b00;
+    color:#fff;
+    border:none;
+    padding:12px 16px;
+    border-radius:50px;
+    cursor:pointer;
+    display:none;
+}
+
+@media(max-width:768px){
+    .container{
+        margin:15px;
+        padding:25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Terms & Conditions</h1>
+<p class="updated"><strong>Last Updated:</strong> June 2026</p>
+
+<p>
+Welcome to CCNA Zero to Hero. By downloading, installing, or using this application,
+you agree to these Terms and Conditions.
+</p>
+
+<h2>1. Acceptance of Terms</h2>
+<p>
+By using the App, you agree to comply with these Terms. If you do not agree,
+please discontinue use of the App.
+</p>
+
+<h2>2. Educational Purpose</h2>
+<p>
+CCNA Zero to Hero is provided for educational and learning purposes only.
+While we strive to provide accurate and up-to-date content, we do not guarantee
+that all information is complete, accurate, or suitable for every certification exam.
+</p>
+
+<h2>3. User Responsibilities</h2>
+<ul>
+<li>Use the App in a lawful manner.</li>
+<li>Do not attempt to reverse engineer, modify, or disrupt the App.</li>
+<li>Do not misuse the App or its content.</li>
+<li>Respect applicable laws and regulations.</li>
+</ul>
+
+<h2>4. Intellectual Property</h2>
+<p>
+All content, including text, graphics, quizzes, learning materials, software,
+logos, and design elements are owned by or licensed to CCNA Zero to Hero and
+protected by intellectual property laws.
+</p>
+
+<p>
+You may not copy, reproduce, distribute, sell, or commercially exploit any part
+of the App without prior written permission.
+</p>
+
+<h2>5. Third-Party Services</h2>
+<p>
+The App may use third-party services including:
+</p>
+
+<ul>
+<li>Google Play Services</li>
+<li>Google AdMob</li>
+<li>Firebase Analytics</li>
+<li>Firebase Crashlytics</li>
+<li>Firebase Cloud Messaging</li>
+<li>Supabase</li>
+<li>Other infrastructure and analytics providers</li>
+</ul>
+
+<p>
+Your use of such services may also be subject to their respective policies and terms.
+</p>
+
+<h2>6. Advertisements</h2>
+<p>
+The App may display advertisements provided by third-party advertising partners.
+We are not responsible for the content, products, or services offered by advertisers.
+</p>
+
+<h2>7. Disclaimer of Warranties</h2>
+<p>
+The App is provided on an "AS IS" and "AS AVAILABLE" basis without warranties
+of any kind, express or implied.
+</p>
+
+<p>
+We do not guarantee uninterrupted, secure, or error-free operation of the App.
+</p>
+
+<h2>8. Limitation of Liability</h2>
+<p>
+To the fullest extent permitted by law, CCNA Zero to Hero shall not be liable
+for any indirect, incidental, special, consequential, or punitive damages arising
+from the use of the App.
+</p>
+
+<h2>9. Updates and Modifications</h2>
+<p>
+We may modify, update, suspend, or discontinue any feature of the App at any time
+without prior notice.
+</p>
+
+<h2>10. Termination</h2>
+<p>
+We reserve the right to restrict or terminate access to the App if misuse,
+abuse, or violations of these Terms are detected.
+</p>
+
+<h2>11. Changes to These Terms</h2>
+<p>
+We may revise these Terms periodically. Continued use of the App after changes
+have been published constitutes acceptance of the revised Terms.
+</p>
+
+<h2>12. Contact Information</h2>
+<p>
+Email: support@yourdomain.com
+</p>
+
+<h2>13. Governing Law</h2>
+<p>
+These Terms shall be governed and interpreted in accordance with the laws of India.
+</p>
+
+<div class="footer">
+<p>
+By using CCNA Zero to Hero, you acknowledge that you have read, understood,
+and agreed to these Terms & Conditions.
+</p>
+</div>
+
+</div>
+
+<button class="top-btn" id="topBtn">↑ Top</button>
+
+<script>
+const topBtn = document.getElementById('topBtn');
+
+window.addEventListener('scroll', () => {
+    topBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+});
+
+topBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+</script>
+
+</body>
+</html>
+```
